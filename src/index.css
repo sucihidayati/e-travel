@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.link {
+  color: #22668a;
+  text-decoration: none;
+}
+.link:hover {
+  color: #22668a;
+  text-decoration: none;
+}
+.link:active {
+  color: #22668a;
+  text-decoration: none;
+}
+.link:visited {
+  color: #22668a;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #22668a;
+}
+
+.category-aktif {
+  background-color: #22668a;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #22668a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
