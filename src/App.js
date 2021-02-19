@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import { NavbarComponent } from './components'
-import { Home, Akomodasi } from './pages'
+import { Home, Akomodasi, Country } from './pages'
 
 export default class App extends Component {
   render() {
@@ -17,6 +17,7 @@ export default class App extends Component {
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/akomodasi" component={Akomodasi} exact />
+            <Route path="/country" component={Country} exact />
           </Switch>
         </main>
       </BrowserRouter>

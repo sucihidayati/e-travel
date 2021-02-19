@@ -23,6 +23,7 @@ export default class ListCategories extends Component {
 				<ListGroup>
 					<ListGroup.Item > <NavLink exact activeClassName="category-aktif" to="/" className="link"> <h5><FontAwesomeIcon icon={faCity} className="mr-1" /> Kota </h5></NavLink></ListGroup.Item>
 					<ListGroup.Item > <NavLink exact activeClassName="category-aktif" to="/akomodasi" className="link"> <h5><FontAwesomeIcon icon={faHotel} className="mr-2" /> Hotel </h5> </NavLink></ListGroup.Item>
+					<ListGroup.Item > <NavLink exact activeClassName="category-aktif" to="/country" className="link"> <h5><FontAwesomeIcon icon={faHotel} className="mr-2" /> Country </h5> </NavLink></ListGroup.Item>
 				</ListGroup>
 			</Col>
 		)

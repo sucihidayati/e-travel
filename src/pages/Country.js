@@ -1,29 +1,29 @@
 import react, { Component } from 'react'
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import { TableAkomodasi, ListCategories } from '../components'
+import { TableCountry, ListCategories } from '../components'
 
-export default class Akomodasi extends Component {
+export default class Country extends Component {
   constructor(probs) {
     super(probs)
     this.state = {
-      akomodasis: [],
+      country: [],
 
     }
   }
 
   render() {
-    const { akomodasis } = this.state
+    const { country } = this.state
     return (
       <div className="mt-3">
         <Container fluid>
           <Row>
             <ListCategories />
             <Col>
-              <h4><strong>Data Akomodasi</strong></h4>
+              <h4><strong>Data Country</strong></h4>
               <hr />
               <Row>
-                <TableAkomodasi akomodasis={akomodasis} />
+                <TableCountry country={country} />
                 <tr />
               </Row>
             </Col>
